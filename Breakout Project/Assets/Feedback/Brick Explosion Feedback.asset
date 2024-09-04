@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8483287b24a2074fa2a9b3ef3856053, type: 3}
+  m_Name: Brick Explosion Feedback
+  m_EditorClassIdentifier: 
+  feedbackItems:
+  - rid: 3966715345104535553
+  - rid: 3966715345104535554
+  references:
+    version: 2
+    RefIds:
+    - rid: 3966715345104535553
+      type: {class: CreateGameObject, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        objectToSpawn: {fileID: 1196532113518759719, guid: a2c0bc90f0bf50e4a8bd371a7e59c500, type: 3}
+        positionMode: 0
+        targetPosition: {x: 0, y: 0, z: 0}
+        targetPositionObject: {fileID: 0}
+        rotationMode: 0
+        targetEulerRotation: {x: 0, y: 0, z: 0}
+        targetRotationObject: {fileID: 0}
+        refreshExisting: 0
+        destroyAfterEnabled: 0
+        destroyAfter: 0
+        offset: {x: 0, y: 0, z: 0}
+        scaleModifier: 1
+    - rid: 3966715345104535554
+      type: {class: PlaySound, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        soundToPlay: {fileID: 8300000, guid: ee27fa785a446234f9caf86de7575af8, type: 3}
+        volume: 0.197
+        playConditions: 0
+        timesToPlay: 0
+        durationToPlayFor: 0
+        soundSettings: 0
+        soundTarget: {fileID: 0}
+        targetTag: 
+        minPitchChange: 0.74
+        maxPitchChange: 0.58
+        soundTargetSettings: 0
+        soundChoiceSettings: 0
+        randomisedSounds:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        randomisedSoundCount: 2
