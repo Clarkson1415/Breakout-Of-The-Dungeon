@@ -161,7 +161,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3ad966f02035d64097a19101c819d0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -247,13 +247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f95779140bb7f474e906fe46dfc24dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surfaceHitFeedback: {fileID: 0}
-  brickHitFeedback: {fileID: 0}
-  lavaHitFeedback: {fileID: 0}
-  paddleHitFeedback: {fileID: 0}
-  levelWonFeedback: {fileID: 0}
-  levelLostFeedback: {fileID: 0}
-  transition: {fileID: 11400000, guid: b0126e1e0c6c2a04895d564bd230dfb9, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +722,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3c6b89c0c058a474da88a2f082348187, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1087,7 +1080,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 842577a696cd02b4aa1f90f083682c7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
