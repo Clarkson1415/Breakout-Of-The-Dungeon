@@ -11,9 +11,16 @@ public class Ball : MonoBehaviour
     private float ballSpeed = 10;
     private Rigidbody2D rigid;
     private Vector2 direction;
+    public GameFeedback surfaceHitFeedback;
+    public GameFeedback brickHitFeedback;
+    public GameFeedback lavaHitFeedback;
+    public GameFeedback paddleHitFeedback;
+    public GameFeedback levelWonFeedback;
+    public GameFeedback levelLostFeedback;
 
     private void OnBallCollision (Collider2D collider)
     {
+        surfaceHitFeedback?.ActivateFeedback(gameObject);
         if (collider.transform.tag == "Lava")
         {
             Destroy(gameObject);
@@ -22,6 +29,7 @@ public class Ball : MonoBehaviour
         else if (collider.transform.tag == "Brick")
         {
             Destroy(collider.gameObject);
+            brickHitFeedback?.ActivateFeedback(collider.gameObject, null, collider.transform.position);
             GameManager.remainingBricks--;
             if (GameManager.remainingBricks == 0)
             {
@@ -30,7 +38,7 @@ public class Ball : MonoBehaviour
         }
         else if (collider.transform.tag == "Paddle")
         {
-
+            paddleHitFeedback?.ActivateFeedback(gameObject);
         }
     }
 
@@ -39,6 +47,7 @@ public class Ball : MonoBehaviour
     /// </summary>
     public void Victory()
     {
+        levelWonFeedback?.ActivateFeedback(gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -47,6 +56,7 @@ public class Ball : MonoBehaviour
     /// </summary>
     public void Defeat()
     {
+        levelLostFeedback?.ActivateFeedback(gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
