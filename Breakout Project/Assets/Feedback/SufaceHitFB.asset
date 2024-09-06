@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8483287b24a2074fa2a9b3ef3856053, type: 3}
+  m_Name: SufaceHitFB
+  m_EditorClassIdentifier: 
+  feedbackItems:
+  - rid: 2939011214820769792
+  - rid: 2939011214820769793
+  - rid: 2939011214820769794
+  - rid: 2939011214820769795
+  - rid: 2939011214820769796
+  references:
+    version: 2
+    RefIds:
+    - rid: 2939011214820769792
+      type: {class: CameraShake, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        cameraToShake: {fileID: 0}
+        shakeAmount: 0.04
+        shakeDecay: 0.5
+        cameraSettings: 0
+    - rid: 2939011214820769793
+      type: {class: PulseSize, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        pulseScaleModifier: 1.3
+        pulseTime: 0.3
+        pulseDuration: 0
+        effectDuration: 0
+        numberOfPulses: 0
+    - rid: 2939011214820769794
+      type: {class: CreateGameObject, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        objectToSpawn: {fileID: 4766705087352534575, guid: e1519d20df200a24b8b98a8cb798ac8e, type: 3}
+        positionMode: 0
+        targetPosition: {x: 0, y: 0, z: 0}
+        targetPositionObject: {fileID: 0}
+        rotationMode: 1
+        targetEulerRotation: {x: 0, y: 0, z: 0}
+        targetRotationObject: {fileID: 0}
+        refreshExisting: 0
+        destroyAfterEnabled: 1
+        destroyAfter: 1
+        offset: {x: 0, y: 0, z: 0}
+        scaleModifier: 1
+    - rid: 2939011214820769795
+      type: {class: PlaySound, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        soundToPlay: {fileID: 8300000, guid: 3ffd19224fe38ae4995565542e7d789c, type: 3}
+        volume: 1
+        playConditions: 0
+        timesToPlay: 0
+        durationToPlayFor: 0
+        soundSettings: 0
+        soundTarget: {fileID: 0}
+        targetTag: 
+        minPitchChange: 0.8
+        maxPitchChange: 1.2
+        soundTargetSettings: 0
+        soundChoiceSettings: 0
+        randomisedSounds:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        randomisedSoundCount: 2
+    - rid: 2939011214820769796
+      type: {class: SetAnimatorTrigger, ns: FastFeedback, asm: Assembly-CSharp}
+      data:
+        isEnabled: 1
+        effectTag: 
+        hasError: 0
+        targetGameObjectSettings: 0
+        targetGameObject: {fileID: 0}
+        targetGameObjectTag: 
+        animationCurveSettings: 0
+        customCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        isExpanded: 1
+        trigger: Hit

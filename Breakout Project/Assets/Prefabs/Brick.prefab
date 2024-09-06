@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 1204063851532836969}
   - component: {fileID: 7311790580416943925}
   m_Layer: 7
-  m_Name: Rendere
+  m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -306,7 +306,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d14af332d50fa3d47a9098c3af7c770b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

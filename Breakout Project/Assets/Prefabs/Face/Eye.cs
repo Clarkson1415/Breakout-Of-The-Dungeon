@@ -11,5 +11,6 @@ public class Eye : MonoBehaviour
     {
         if (target != null)
             eyePivot.transform.up = target.position - eyePivot.position;
+            
     }
 }

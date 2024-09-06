@@ -17,6 +17,7 @@ public class Ball : MonoBehaviour
     public GameFeedback paddleHitFeedback;
     public GameFeedback levelWonFeedback;
     public GameFeedback levelLostFeedback;
+    public TransitionSettings transition;
 
     private void OnBallCollision (Collider2D collider)
     {
@@ -48,7 +49,8 @@ public class Ball : MonoBehaviour
     public void Victory()
     {
         levelWonFeedback?.ActivateFeedback(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        TransitionManager.Instance().Transition(SceneManager.GetActiveScene().buildIndex, transition, 2f);
     }
 
     /// <summary>
@@ -57,7 +59,8 @@ public class Ball : MonoBehaviour
     public void Defeat()
     {
         levelLostFeedback?.ActivateFeedback(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        TransitionManager.Instance().Transition(SceneManager.GetActiveScene().buildIndex, transition, 2f);
     }
     
     /// <summary>
