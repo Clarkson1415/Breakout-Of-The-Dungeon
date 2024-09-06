@@ -247,6 +247,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f95779140bb7f474e906fe46dfc24dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  surfaceHitFeedback: {fileID: 0}
+  brickHitFeedback: {fileID: 0}
+  lavaHitFeedback: {fileID: 0}
+  paddleHitFeedback: {fileID: 0}
+  levelWonFeedback: {fileID: 0}
+  levelLostFeedback: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
